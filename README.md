@@ -1,17 +1,6 @@
 NuxtとLaravelのBreeze/Sanctumを使ったサンプル
 
-フロントエンド:https://github.com/pdTrade/tut-nuxt3-laravel-auth-fe
-
-実装済み
-
-- ログイン/ログアウト
-- ユーザー登録
-
-下記はこれからの予定
-
-
-- メールアドレス認証
-- パスワードリセット
+フロントエンド:https://github.com/pdTrade/tut-nuxt3-laravel-multi-auth-fe
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
