@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 
-class RegisteredAdminController extends Controller
+class AdmiinRegisteredController extends Controller
 {
     /**
      * Handle an incoming registration request.

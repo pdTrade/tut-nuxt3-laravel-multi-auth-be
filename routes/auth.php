@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Auth\Admin\RegisteredAdminController;
+use App\Http\Controllers\Auth\Admin\AdmiinRegisteredController;
+use App\Http\Controllers\Auth\Admin\AdminAuthenticatedSessionController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Auth\EmailVerificationNotificationController;
 use App\Http\Controllers\Auth\NewPasswordController;
@@ -38,6 +39,11 @@ Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
                 ->name('logout');
 
 
-Route::post('/admin/register', [RegisteredAdminController::class, 'store'])
+Route::post('/admin/register', [AdmiinRegisteredController::class, 'store'])
     ->middleware('guest')
     ->name('register');
+
+
+Route::post('/admin/login', [AdminAuthenticatedSessionController::class, 'store'])
+    ->middleware('guest')
+    ->name('login');
