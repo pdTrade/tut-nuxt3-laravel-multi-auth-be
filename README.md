@@ -2,6 +2,13 @@ NuxtとLaravelのBreeze/Sanctumを使ったサンプル
 
 フロントエンド:https://github.com/pdTrade/tut-nuxt3-laravel-multi-auth-fe
 
+# 前提
+公開画面側の一般ユーザと管理画面にアクセスできる管理ユーザが存在する
+
+usersとadminsテーブルの2つでユーザ情報を管理する
+
+この時に、BreezeとSanctum関連でどういった調整が必要か
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
